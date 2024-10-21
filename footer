@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://logospng.org/download/jovem-pan/jovem-pan-256.png" type="image/x-icon">
+    <title>meu Primeiro rodapé</title>
+    <style>
+        .imagem-centralizada {
+            display: block;
+            margin: 0 auto;
+            width: 100%;
+            /* ajuste conforme necessário */
+        }
+        li {
+           color: white;
+           font-family: arial;
+        }
+        ul {
+            list-style-type: none;
+        }
+        .lista {
+            align-content: right;
+            margin: 130px;
+        }
+        body {
+            padding: 0%;
+            margin: 0%;
+        }
+        table {
+            margin-left: 150px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <h1> Meu Primeiro Rodapé</h1>
+    <p>Este é um exemplo simples de como criar um rodapé em uma página HTML</p>
+    <footer style="background-color: #00468b;">
+       
+        </tr>
+        <table>
+            <tr>
+                <td>
+                    <ul>
+                        <li style="color: white;" >SENAC-SERVICO NACIONAL DE APRENDIZAGEM</li>
+                        <li>CNPJ: 03.296.968/0001-03</li>
+                        <li>Setor de Grandes Áreas Norte (SGAN)</li>
+                        <li>Quadra 712/912, conjunto E</li>
+                        <li>Brasilia/DF</li>
+                        <li>CEP: 70.790-125</li>
+                    </ul>
+                </td>
+                
+                <td>
+
+                    <img class="imagem-centralizada"
+                            src="img/Rodapé de exemplo (1).png"
+                            alt="logo">
+                </td>
+                
+
+                <td class="lista">
+                    <ul >
+                       <li><strong>Nossa Política</strong></li>
+                       <li>Política de Privacidade</li>
+                       <li>Política de Cookies</li>                    
+                </td>
+            </tr>
+
+
+        </table>
+    </footer>
+</body>
+
+</html>
